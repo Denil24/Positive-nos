@@ -1,0 +1,11 @@
+def print_positive_numbers(start, end):
+    for num in range(start, end + 1):
+        if num > 0:
+            print(num)
+
+# Example: Print all positive numbers in the range from 1 to 10
+start_range = 1
+end_range = 10
+
+print(f"All positive numbers in the range {start_range} to {end_range}:")
+print_positive_numbers(start_range, end_range)
